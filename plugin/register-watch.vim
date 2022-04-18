@@ -1,7 +1,7 @@
 " registerの内容を常に表示する
 
 if exists('g:loaded_register_watch')
-"  finish
+  finish
 endif
 let g:loaded_register_watch = 1
 
