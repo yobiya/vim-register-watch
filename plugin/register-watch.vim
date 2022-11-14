@@ -8,7 +8,7 @@ let g:loaded_register_watch = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-let g:register_watch_targets = '"0123456789abcfghijklmnopqrstuvwxyz*+'
+let g:register_watch_targets = '"0123456789abcdefghijklmnopqrstuvwxyz-*+.:%#'
 let g:register_watch_separator = ' '
 
 let s:target_buf_name = 'register-watch-buf'
